@@ -1,0 +1,30 @@
+/* info */
+.rg-container{font-size:90%;line-height:unset;margin:0;padding:0;border-radius:10px;background:#f7f7f7;overflow:hidden}
+.rg-source{margin:0;font-size:70%;text-transform:lowercase;font-style:italic;background:#b0bec5;letter-spacing:.05em;color:#fff;padding:1em 5%;text-align:right}
+  .rg-source span.post-colon a{color:#fff;border-bottom:0}
+  .rg-source span.post-colon a:hover{box-shadow:none}
+/* table */
+table.rg-table{width:100%;border-collapse:collapse;border-spacing:0}
+table.rg-table tr{-moz-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;text-align:left}
+table.rg-table tr &gt; td:first-of-type{font-weight:600;text-align:left}
+table.rg-table tr &gt; td:last-of-type{background:#fafafa;text-align:left}
+table.rg-table tr{border-bottom:5px solid #fff;overflow:hidden}
+table.rg-table tr.highlight{background-color:#78909c!important;color:#fff}
+table.rg-table th{font-weight:700;padding:1.5em 5%;font-size:100%;text-align:left;text-transform:uppercase;font-family:Montserrat;line-height:normal;letter-spacing:.05em}
+table.rg-table td{padding:1em;font-size:90%}
+table.rg-table .highlight td{font-weight:700}ber{text-align:right}
+/* media queries */
+@media screen and (max-width: 600px) {
+.rg-container{max-width:600px;margin:0 auto}
+table.rg-table{width:100%}
+table.rg-table tr.hide-mobile,table.rg-table th.hide-mobile,table.rg-table td.hide-mobile{display:none}
+table.rg-table thead{display:none}
+table.rg-table tbody{width:100%}
+table.rg-table tr,table.rg-table th,table.rg-table td{display:block}
+table.rg-table tr{padding:1em}
+table.rg-table tr:nth-child(even){background-color:none}
+table.rg-table td{padding:0;background:none!important}
+table.rg-table td[data-title]:before{content:attr(data-title);font-weight:700;display:inline-block;content:attr(data-title);float:left;margin-right:.5em;font-size:.95em}
+table.rg-table td:empty{display:none}
+table.rg-table .highlight td{background-color:inherit;font-weight:400}
+}
